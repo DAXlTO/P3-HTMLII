@@ -28,3 +28,13 @@
 .secondary {
   text-shadow: 1px 1px 0 black;
 }
+
+@layer components {
+  .chefs-name {
+    @apply text-secondary text-3xl text-center;
+  }
+
+  .foto-pie {
+    @apply secondary col-start-5 row-start-5 text-gray-300 mb-0 italic self-end;
+  }
+}

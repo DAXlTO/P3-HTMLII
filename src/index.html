@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
   <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
   <title>Concurso cocina</title>
 </head>
@@ -13,28 +12,25 @@
   <header class="fixed top-0 z-10 w-full h-24 mt-5 bg-transparent">
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center">
-        <a href="index.html" class="ml-12">
-          <img src="assets/images/logo.png" alt="Logo del concurso" width="60" height="60">
-        </a>
+        <include src="views/logo.html"></include>
         <nav>
           <ul class="flex space-x-4 mr-12 uppercase text-white">
-            <li class="pr-10"><a href="views/chefs.html" class="hover:text-red-600">Chefs</a></li>
-            <li class="pr-10"><a href="" class="hover:text-red-600">Blog</a></li>
-            <li><a href="" class="hover:text-red-600">Apúntate</a></li>
+            <li class="pr-10"><a href="chefs.html" class="font-bold hover:text-primary">Chefs</a></li>
+            <li class="pr-10"><a href="codigoia.html" class="font-bold hover:text-primary">Página por IA</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
   <div class="cover grid">
-    <h1 class="headline col-span-3 col-start-2 row-start-2 text-center text-red-500">Concurso de cocina<br>San Bernardo</h1>
+    <h1 class="headline col-span-3 col-start-2 row-start-2 text-center text-primary">Concurso de cocina<br>San Bernardo</h1>
     <h2 class="subhead col-span-3 col-start-1 row-start-4 text-right text-white">
-      ¿Eres el qué mejor cocina del pueblo? <a href="" class="hover:text-red-500 text-blue-500">¡Apúntante!</a>
+      ¿Eres el qué mejor cocina del pueblo? <a href="" class="hover:text-primary text-secondary">¡Apúntante!</a>
     </h2>
     <p class="description col-start-4 row-start-3 text-white">
       Ya ha llegado el concurso anual de cocina para saber quién es el vecino qué mejor plato prepara. Además, podrás ganar muchos premios y pasar un rato divertido.
     </p>
-    <aside class="secondary col-start-5 row-start-5 text-gray-300 mb-0 italic text-lg self-end">
+    <aside class="foto-pie">
       <h6>Imagen de <a href="https://pixabay.com/es/users/ayindeabdulmajeed44-23459028/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6639970" class="hover:text-gray-400">Abdulmajeed Hassan</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6639970" class="hover:text-gray-400">Pixabay</a></h6>
     </aside>
   </div>

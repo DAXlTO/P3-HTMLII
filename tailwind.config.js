@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': 'red', 
+        'secondary': '#0d6efd',
+        'secondary-link': '#7cb7fd' 
+      },
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
